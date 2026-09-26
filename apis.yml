@@ -1,7 +1,6 @@
 aid: arzooocom
 name: Arzooocom
-description: 'Arzooocom is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Arzooocom, operating under Moksha Retails Global Private Limited, is an Indian B2B commerce platform for electronics and appliances. It empowers retailers with a wide product selection, competitive pricing, and digital tools for supply chain and working capital, serving over 50,000 stores across India.'
 url: https://raw.githubusercontent.com/api-evangelist/arzooocom/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-26'
 modified: '2026-09-26'
 tags:
 - Company
+- B2B
+- Retail
+- India
+- E-commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arzooocom-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/arzooocom
+  url: https://www.arzooo.com
